@@ -94,6 +94,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Hide Lovable badge globally */
+#lovable-badge {
+  display: none !important;
+}
+
 /* Gradient text */
 .gradient-text {
   @apply bg-clip-text text-transparent;
